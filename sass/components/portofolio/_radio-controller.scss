@@ -1,0 +1,38 @@
+.portofolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.radio-btn-list{
+  @extend %list;
+    margin-top: 0px;
+  margin-bottom: 50px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.radio-btn-list__btn{
+  border-radius: 4px;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  background-color: $icon-bg-color;
+  border-style: none;
+  transition: box-shadow 250ms $cubic-rubik, 
+  color 250ms $cubic-rubik, 
+  background-color 250ms $cubic-rubik;
+  &:hover, &:focus{
+    box-shadow: 0px 2px 2px 0px $portofolio-btn-shadow-dark,
+  0px 1px 2px 0px $portofolio-btn-shadow-light;
+  color: $main-bg-color;
+  background-color: $btn-color;
+  }
+}
+.radio-btn-list__field{
+  &+&{
+    margin-left: 8px;
+  }
+}

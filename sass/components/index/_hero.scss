@@ -1,0 +1,45 @@
+.hero{
+  padding: 200px 0px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+  url(../../img/index/background/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+}
+.hero__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__title{
+  margin: 0px;
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60/44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $main-bg-color;       
+}
+.hero__btn{
+  margin-top: 30px;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30/16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $main-bg-color;
+  border-radius: 4px;
+  border: none;
+  background-color: $btn-color;
+}
+.contact__icon{
+  max-width: 16px;
+  max-height: 16px;
+}
