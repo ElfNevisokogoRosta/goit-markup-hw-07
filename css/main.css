@@ -18,7 +18,7 @@ body {
   list-style-type: none;
 }
 
-.link {
+.header__icon, .nav-bar__link, .contact__item, .footer__icon, .portfolio-list__field, .portofolio-dis__title, .license-terms {
   color: inherit;
   text-decoration: none;
 }
@@ -87,8 +87,8 @@ body {
   color: #000000;
 }
 
-.nav-bar__item {
-  position: relative;
+.nav-bar__link {
+  display: block;
   padding: 32px 0px;
   font-weight: 500;
   font-size: 14px;
@@ -99,16 +99,20 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-bar__link:focus, .nav-bar__link:hover {
+  color: #2196F3;
+}
+
+.nav-bar__link--curent {
+  color: #2196F3;
+}
+
+.nav-bar__item {
+  position: relative;
+}
+
 .nav-bar__item + .nav-bar__item {
   margin-left: 50px;
-}
-
-.nav-bar__item .nav-bar__item--hover:focus, .nav-bar__item .nav-bar__item--hover:hover {
-  color: #2196F3;
-}
-
-.nav-bar__item--curent {
-  color: #2196F3;
 }
 
 .nav-bar__item--curent::after {

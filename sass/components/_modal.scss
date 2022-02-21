@@ -131,6 +131,7 @@ line-height: (24/14);
 letter-spacing: 0.03em;
 }
 .license-terms{
+    @extend %link;
     color: $btn-color;
 }
 .form__checkbox{

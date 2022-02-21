@@ -7,6 +7,7 @@
   flex-wrap: wrap;
 }
 .portfolio-list__field{
+    @extend %link;
     width: 370px;
     transition: box-shadow 250ms $cubic-rubik;
     border: 1px solid $portfolio-element-field-color;
@@ -45,6 +46,7 @@
   color: $main-bg-color;
   }
 .portofolio-dis__title{
+    @extend %link;
     margin: 0;
     font-weight: 700;
     font-size: 18px;

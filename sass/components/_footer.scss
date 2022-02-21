@@ -6,6 +6,7 @@
     padding-bottom: 60px;
 }
 .footer__icon{
+    @extend %link;
     display: block;
     padding: 0px;
     font-family: Raleway;
