@@ -960,7 +960,7 @@ body {
 
 .form__checkbox--hiden:checked + .form__checkbox {
   background-color: #2196F3;
-  background-image: url(../../img/index/full-check.svg);
+  background-image: url(../img/index/full-check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: #2196F3;
